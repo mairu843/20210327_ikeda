@@ -1,0 +1,55 @@
+body {
+    margin: 0px;
+}
+.enshu {
+    width: 100%;
+    height: 100%;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+p {
+    padding: 15px;
+}
+.enshu_text-menu {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 15px;
+    color: #10084a;
+    font-weight: bold;
+    margin-top: -10px;
+    margin-bottom: 40px;
+    margin-right: 5px;
+}
+.enshu_text-menu-title {
+    color: #10084a;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.enshu_parts {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.enshu_text-content {
+    font-size: 50px;
+    font-weight: 400;
+    position: absolute;
+    top: 54%;
+}
+.enshu_background {
+    background: #10084a;
+    width: 75%;
+    height: 35%;
+    position: absolute;
+    top: 77%;
+}
+.enshu_img {
+    max-width: 100%;
+}
+img {
+    width: 50%;
+    margin-left: 50%;
+    position: relative;
+    bottom: 10px;
+}
